@@ -1,5 +1,17 @@
 # Terraforming HELM land with GKE
 
+This project provide a terraform IaC of:
+
+* GCP environment for kubernetes
+  * vpc
+  * subnet
+  * firewall
+  * static ip
+* Kubernetes cluster 
+* Helm charts
+  * Nginx Ingress
+  * Cert Manager
+
 
 ## Project dependencies
 - [git](https://git-scm.com/downloads)
